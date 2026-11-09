@@ -10,9 +10,9 @@
             <livewire:posts.create-post />
         </div>
 
-        <div class="mt-4">
+        {{-- <div class="mt-4">
             <livewire:mpesapay />
-        </div>
+        </div> --}}
         <div class="mt-4">
             <livewire:posts.post-list />
         </div>

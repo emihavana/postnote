@@ -93,6 +93,14 @@ class Mpesapay extends Component
         }
     }
 
+    public function resetCheckout()
+    {
+        $this->checkoutRequestId = null;
+        $this->paymentStatus = null;
+        $this->errorMessage = null;
+        $this->mpesaReceipt = null;
+    }
+
     public function render()
     {
         return view('livewire.mpesapay');
